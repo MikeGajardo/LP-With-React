@@ -9,11 +9,11 @@ import CardGroup from "./CardGroup.jsx";
 //create your first component
 const Home = () => {
 	return (
-		<div>
+		<>
 			<Navbar />
 			<Jumbotron />
 			<CardGroup />
-		</div>
+		</>
 	);
 };
 
