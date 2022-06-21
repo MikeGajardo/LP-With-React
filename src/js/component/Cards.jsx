@@ -49,7 +49,7 @@ const data = [
 
 const CardsInHTML = data.map((card, i) => {
   return (
-    <div key={i} className="col">
+    <div key={i} className="col-md-3 pb-5">
       <div className="card">
         <img src={card.image} className="card-img-top" alt="..." />
         <div className="card-body">
